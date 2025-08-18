@@ -62,9 +62,9 @@ Effect Chain Configuration
 2. **Moog Ladder 4 Filter**
 - **Enabled Parameter Value: 1**
 - **Parameters:** 
-   - **LPF (Low Pass Filter): Linked (Extremely low cutoff, severely cutting off high frequencies and leaving only the lowest bass tones) 
+   - **LPF (Low Pass Filter):** Linked (Extremely low cutoff, severely cutting off high frequencies and leaving only the lowest bass tones) 
    - **Resonance:** 1.54534 
-   - **HPF (High Pass Filter): 0.0304851 (Low cutoff, removing some very low frequencies but allowing the bass to pass through) 
+   - **HPF (High Pass Filter):** 0.0304851 (Low cutoff, removing some very low frequencies but allowing the bass to pass through) 
    - **LinkType:** The LPF is linked and inverted, meaning adjusting it will inversely affect the cutoff frequency, potentially creating a smooth transition from heavy distortion to more open tones. 
 3. **Reverb**
 - **Enabled Parameter Value: 1**
