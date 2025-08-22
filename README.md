@@ -11,11 +11,11 @@
 
 Effect Chain Configuration
 
-**Name:** **`Ethereal Ascend`**, 
+**Name:** **`Ethereal Ascend`** 
 
-**Mix Mode**: DRY+WET
+**Mix Mode:** DRY+WET
 
-**Super Parameter Value**: 1 (Fully wet, emphasizing the effects)
+**Super Parameter Value:** 1 (Fully wet, emphasizing the effects)
 
 
 **Effects**
@@ -38,7 +38,7 @@ Effect Chain Configuration
    - **LinkType:** None, each parameter is independent. 
 
 3. **Filter**
-- **Enabled Parameter Value: 1** 
+- Enabled Parameter Value: 1 
 - **Parameters:** 
 - **LPF (Low Pass Filter):** Linked (Moderate cutoff to add a mellow, ethereal tone) 
    - **Q (Resonance):** 0.5 (Reduced resonance for a smoother filter response) 
@@ -51,15 +51,15 @@ Effect Chain Configuration
 
 Effect Chain Configuration
 
-**Name:** **`Smooth Transition`**, 
+**Name:** **`Smooth Transition`** 
 
-**Mix Mode**: DRY/WET
+**Mix Mode:** DRY/WET
 
-**Super Parameter Value**: 1 (Fully wet, emphasizing the effects)
+**Super Parameter Value:** 1 (Fully wet, emphasizing the effects)
 
 **Effects**
 1. **Bitcrusher**
-- **Enabled Parameter Value: 1** 
+- Enabled Parameter Value: 1 
 - **Parameters:** 
    - **Bit Depth:** Linked
    - **Downsample:** Linked (Extremely low downsample rate, further distorting the sound and creating a smooth, grainy texture) 
@@ -86,6 +86,40 @@ Effect Chain Configuration
 
 Effect Chain Configuration
 
-**Name:** **`NGC 5194`**, 
+**Name:** **`NGC 5194`** 
 
-**Mix Mode**: DRY/WET
+**Mix Mode:** DRY/WET
+
+**Super Parameter Value:** 1 (Fully wet, emphasizing the effects)
+
+**Effects**
+1. **Flanger**
+- Enabled Parameter Value: 1 (Maximum intensity for the flanger effect) 
+- **Parameters:** 
+   - **Speed:** 10 (Faster speed for a more pronounced swirling effect) 
+   - **Width:** 8 (Increased width for a wider, more dramatic effect) 
+   - **Manual:** 5 (Manual control for fine-tuning) 
+   - **Regen:** 0.5 (Moderate regeneration for a sustained effect) 
+   - **Mix:** 1 (Full mix to emphasize the flanger effect) 
+   - **Triplet:** 0 (No triplet effect) 
+   - **Stereo:** 1 (Stereo effect for a more immersive sound) 
+   - **LinkType:** Mix is linked to ensure the flanger is fully integrated. 
+2. **Echo**
+- Enable Parameter Value: 1 
+- **Parameters:** 
+   - **Delay Time:** 0.2 (Short delay time for a subtle echo) 
+   - **Feedback Amount:** 0.5 (Moderate feedback for a sustained echo) 
+   - **Pingpong Amount:** 0.5 (Ping pong for a stereo effect) 
+   - **Send Amount:** 0.7 (Increased send amount for more pronounced echo) 
+   - **Quantize:** 1 (Quantized timing for rhythmic echo) 
+   - **Triplet:** 0 (No triplet effect) 
+   - **LinkType:** Send Amount is linked to ensure the echo is fully integrated. 
+3. **Reverb**
+- Enabled Parameter Value: 1
+- **Parameters:** 
+   - **Decay:** 1 (Longest decay time for a spacious reverb tail) 
+   - **Bandwidth:** 1 (Full bandwidth to retain all frequencies) 
+   - **Damping:** 0 (No damping to allow high-frequency content to ring out clearly) 
+   - **Send Amount:** 1 (Maximum send amount to fully incorporate the reverb effect) 
+   - **LinkType:** Decay is linked to the left channel, which could be used to control the reverb tail length dynamically. 
+
