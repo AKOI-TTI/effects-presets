@@ -1,4 +1,9 @@
 # Mixxx Custom Effects Presets
+[Ethereal Ascend Preset](#ethereal-ascend-preset)
+
+[Smooth Transition Preset](#smooth-transition-preset)
+
+[NGC 5194 Preset](#ngc-5194-preset)
 
 ## Ethereal Ascend Preset
 
@@ -73,4 +78,14 @@ Effect Chain Configuration
    - **Bandwidth:** 1 (Full bandwidth, retaining all frequencies in the reverb) 
    - **Damping:** 0 (No damping, allowing high-frequency content to ring out clearly) 
    - **Send Amount:** Linked 
-   - **LinkType:** Decay is linked to the left channel, which could be used to control the reverb tail length dynamically. 
+   - **LinkType:** Decay is linked to the left channel, which could be used to control the reverb tail length dynamically.
+
+ ## NGC 5194 Preset
+
+**Use case:**  This could be used to create captivating, and immersive galactic wormhole effect, perfect for enhancing transitions or building excitement in your mixes.
+
+Effect Chain Configuration
+
+**Name:** **`NGC 5194`**, 
+
+**Mix Mode**: DRY/WET
