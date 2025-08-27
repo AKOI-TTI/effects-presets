@@ -5,6 +5,8 @@
 
 [NGC 5194 Preset](#ngc-5194-preset)
 
+[NS-7 Preset](#ns-7-preset)
+
 ## Ethereal Ascend Preset
 
 **Use case:**  This could be used to create a dynamic ethereal and floating effect. Best used for vocals. Twist level knob back and forth to create the effect. 
@@ -123,3 +125,10 @@ Effect Chain Configuration
    - **Send Amount:** 1 (Maximum send amount to fully incorporate the reverb effect) 
    - **LinkType:** Decay is linked to the left channel, which could be used to control the reverb tail length dynamically. 
 
+ ## NS-7 Preset
+
+**Use case:**  
+
+Effect Chain Configuration
+
+**Name:** **`NS-7`** 
