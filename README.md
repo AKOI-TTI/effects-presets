@@ -5,6 +5,8 @@
 
 [NGC 5194 Preset](#ngc-5194-preset)
 
+[NS-5 Preset](#ns-5-preset)
+
 [NS-7 Preset](#ns-7-preset)
 
 ## Ethereal Ascend Preset
@@ -125,6 +127,16 @@ Effect Chain Configuration
    - **Send Amount:** 1 (Maximum send amount to fully incorporate the reverb effect) 
    - **LinkType:** Decay is linked to the left channel, which could be used to control the reverb tail length dynamically. 
 
+ ## NS-5 Preset
+
+**Use case:**  
+
+Effect Chain Configuration
+
+**Name:** **`NS-5`** 
+
+ 
+ 
  ## NS-7 Preset
 
 **Use case:**  
