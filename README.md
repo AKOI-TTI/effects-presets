@@ -5,6 +5,8 @@
 
 [NGC 5194 Preset](#ngc-5194-preset)
 
+[Submerged Preset](#submerged-preset)
+
 [NS-5 Preset](#ns-5-preset)
 
 [NS-7 Preset](#ns-7-preset)
@@ -24,7 +26,7 @@ Effect Chain Configuration
 
 **Effects**
 1. **Pitch Shift**
-- **Enabled Parameter Value: 1**
+- Enabled Parameter Value: 1
 - **Parameters:**
    - **Pitch:** Linked (Slightly lowering the pitch to create a more ethereal tone) 
    - **Range:** Linked (Extended range for pitch shifting, allowing for more dramatic changes) 
@@ -33,7 +35,7 @@ Effect Chain Configuration
    - **LinkType:** Pitch and Range(inverted) are linked, meaning adjusting one will affect the other. This could be used to create a dynamic, smooth transition effect when twisting a knob. 
 
 2. **Reverb**
-- **Enabled Parameter Value: 1**
+- Enabled Parameter Value: 1
 - **Parameters:** 
    - **Decay:** 0.8 (Long decay time for a haunting echo) 
    - **Bandwidth:** 0.5 (Narrow bandwidth to reduce high-frequency ringing) 
@@ -69,14 +71,14 @@ Effect Chain Configuration
    - **Downsample:** Linked (Extremely low downsample rate, further distorting the sound and creating a smooth, grainy texture) 
    - **LinkType:** Both parameters are linked and inverted.
 2. **Moog Ladder 4 Filter**
-- **Enabled Parameter Value: 1**
+- Enabled Parameter Value: 1
 - **Parameters:** 
    - **LPF (Low Pass Filter):** Linked (Extremely low cutoff, severely cutting off high frequencies and leaving only the lowest bass tones) 
    - **Resonance:** 1.54534 
    - **HPF (High Pass Filter):** 0.0304851 (Low cutoff, removing some very low frequencies but allowing the bass to pass through) 
    - **LinkType:** The LPF is linked and inverted, meaning adjusting it will inversely affect the cutoff frequency, potentially creating a smooth transition from heavy distortion to more open tones. 
 3. **Reverb**
-- **Enabled Parameter Value: 1**
+- Enabled Parameter Value: 1
 - **Parameters:** 
    - **Decay:** Linked 
    - **Bandwidth:** 1 (Full bandwidth, retaining all frequencies in the reverb) 
@@ -125,6 +127,41 @@ Effect Chain Configuration
    - **Bandwidth:** 1 (Full bandwidth to retain all frequencies) 
    - **Damping:** 0 (No damping to allow high-frequency content to ring out clearly) 
    - **Send Amount:** 1 (Maximum send amount to fully incorporate the reverb effect) 
+   - **LinkType:** Decay is linked to the left channel, which could be used to control the reverb tail length dynamically.
+
+  ## Submerged Preset
+
+**Use case:**  This could be used to create captivating, and immersive galactic wormhole effect, perfect for enhancing transitions or building excitement in your mixes.
+
+Effect Chain Configuration
+
+**Name:** **`Submerged`** 
+
+**Mix Mode:** DRY+WET
+
+**Super Parameter Value:** 0.866142 (Balanced mix of original and processed signals)
+
+**Effects**
+1. **Bitcrusher**
+- Enabled Parameter Value: 1 
+- **Parameters:** 
+   - **Bit Depth:** 10 (Faster speed for a more pronounced swirling effect) 
+   - **Downsample:** 1 (Standard downsample rate, maintaining clarity while adding a subtle texture)
+   - **LinkType:** Both parameters are linked and inverted, meaning adjusting one will inversely affect the other. This could be used to create a dynamic, smooth transition effect when twisting a knob.
+2. **Moog Ladder 4 Filter**
+- Enable Parameter Value: 1 
+- **Parameters:**
+   - **LPF (Low Pass Filter):** 0.5 (Midrange cutoff, allowing mid and low frequencies to pass through)
+   - **Resonance** 1.54534 (Increased resonance to emphasize the remaining frequencies and add a rich, resonant tone)
+   - **HPF (High Pass Filter):** 0.0003 (Extremely low cutoff, removing very low frequencies but allowing the bass to pass through)
+   - **LinkType:** The LPF is linked and inverted, meaning adjusting it will inversely affect the cutoff frequency, potentially creating a smooth transition from heavy distortion to more open tones.
+3. **Reverb**
+- Enabled Parameter Value: 1
+- **Parameters:** 
+   - **Decay:** 0 (Shortest decay time, creating a subtle reverb tail)
+   - **Bandwidth:** 1 (Full bandwidth to retain all frequencies) 
+   - **Damping:** 0 (No damping to allow high-frequency content to ring out clearly) 
+   - **Send Amount:** 0 (Minimum send amount, minimally incorporating the reverb effect)
    - **LinkType:** Decay is linked to the left channel, which could be used to control the reverb tail length dynamically. 
 
  ## NS-5 Preset
