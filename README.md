@@ -131,7 +131,7 @@ Effect Chain Configuration
 
   ## Submerged Preset
 
-**Use case:**  This could be used to create captivating, and immersive galactic wormhole effect, perfect for enhancing transitions or building excitement in your mixes.
+**Use case:**  This could be used to create a captivating underwater or submerged environment, perfect for enhancing transitions or building suspense in your mixes.
 
 Effect Chain Configuration
 
