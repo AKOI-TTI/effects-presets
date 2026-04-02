@@ -1,4 +1,6 @@
 # Mixxx Custom Effects Presets
+[How To Add Effects](#how-to-add-effects)
+
 [Ethereal Ascend Preset](#ethereal-ascend-preset)
 
 [NGC 5194 Preset](#ngc-5194-preset)
@@ -12,6 +14,10 @@
 [Submerged Preset](#submerged-preset)
 
 [Wah-wahish Preset](#wah-wahish-preset)
+
+## How To Add Effects
+For export/import, go to Options menu → Preferences → Effects
+
 
 ## Ethereal Ascend Preset
 
