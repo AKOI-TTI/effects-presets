@@ -72,7 +72,6 @@ Recommended:
 🎸 - :bass:
 🥁 - :drums:
 
-🎼 - :Any:
 
 Effect Chain Configuration
 
@@ -222,7 +221,7 @@ Effect Chain Configuration
 **Use case:**  This could be used to create a dynamic, smooth transition effect when twisting level knob. 
 
 Recommended:
-🎼 - :Any:
+🎼 - :All:
 
 Effect Chain Configuration
 
@@ -261,7 +260,7 @@ Effect Chain Configuration
 **Use case:**  This could be used to create a captivating underwater or submerged environment, perfect for enhancing transitions or building suspense in your mixes.
 
 Recommended:
-🎼 - :Any:
+🎼 - :All:
 
 Effect Chain Configuration
 
@@ -304,6 +303,7 @@ Recommended:
 🎹 - :synths:
 🎸 - :bass:
 🥁 - :drums:
+🎼 - :All:
 
 
 Effect Chain Configuration
