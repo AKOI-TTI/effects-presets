@@ -1,32 +1,28 @@
 # Mixxx Custom Effects Presets
-[How To Add Effects](#how-to-add-effects)
-
 [Delay T3](#delay-t3-preset) 🚧
 
-[Ethereal Ascend Preset](#ethereal-ascend-preset)
+[Ethereal Ascend Preset](#ethereal-ascend-preset)  🎤
 
-[Glow II](#glow-ii-preset) 🆕
+[Glow II Preset](#glow-ii-preset) 🆕  🎤🎹🥁
 
-[NGC 5194 Preset](#ngc-5194-preset)
+[NGC 5194 Preset](#ngc-5194-preset)  🎹🎸🥁   🎼
 
-[NS-5 Preset](#ns-5-preset)
+[NS-5 Preset](#ns-5-preset) 🎤🎹🎸
 
-[NS-7 Preset ⚠️](#ns-7-preset)
+[NS-7 Preset](#ns-7-preset) 🎤🎹🎸
 
-[Smooth Transition Preset](#smooth-transition-preset)
+[Smooth Transition Preset](#smooth-transition-preset) 🎼
 
-[Submerged Preset](#submerged-preset)
+[Submerged Preset](#submerged-preset) 🎼
 
-[Vocal Boost II Preset](#vocal-boost-ii-preset) 🆕
+[Vocal Boost II Preset](#vocal-boost-ii-preset) 🆕 🎤
 
-[Wah-wahish Preset](#wah-wahish-preset)
+[Wah-wahish Preset](#wah-wahish-preset) 🎤🎹🎸🥁
 
-## How To Add Effects
-For export/import, go to Options menu → Preferences → Effects
 
- ## Delay T3 Preset
+## Delay T3 Preset
 
-**Use case:** 
+**Use case:** 🚧
 
 ## Ethereal Ascend Preset
 
@@ -71,9 +67,53 @@ Effect Chain Configuration
    - **HPF (High Pass Filter):** Linked (Low cutoff to remove some low frequencies for clarity) 
    - **LinkType:** LPF is linked to the left channel, and HPF is linked to the right channel, allowing for dynamic control over the cutoff frequencies.
 
+
  ## Glow II Preset
 
-**Use case:** 
+**Use case:**  This could be used to add air and a gentle shimmer: two parametric bands lift presence and brilliance, a slight downward pitch shift (with formant preservation) thickens the tone, and reverb send follows the super knob so you can swell ambient bloom without drowning the dry signal.
+
+Recommended:
+🎤 - :vox:
+🎹 - :synths:
+🥁 - :drums:
+
+
+Effect Chain Configuration
+
+**Name:** **`Glow II`**
+
+**Mix Mode:** DRY/WET
+
+**Super Parameter Value:** 0 (Dry bias at rest; adjust for wet/dry balance)
+
+**Effects**
+1. **Parametric EQ**
+- Enabled Parameter Value: 0
+- **Parameters:**
+   - **Gain (Band 1):** 3.5 (Boost at the first band center)
+   - **Q (Band 1):** 2 (Moderately narrow band)
+   - **Center (Band 1):** 2800 Hz (Upper-mid / presence lift)
+   - **Gain (Band 2):** 2.5 (Boost at the second band center)
+   - **Q (Band 2):** 1.5 (Slightly wider band)
+   - **Center (Band 2):** 9000 Hz (High-frequency air and sparkle)
+   - **LinkType:** None; bands are set independently.
+2. **Pitch Shift**
+- Enabled Parameter Value: 0
+- **Parameters:**
+   - **Pitch:** Linked (Subtle shift; target value −1 semitone in semitone mode)
+   - **Range:** 0
+   - **Semitones Mode:** 1 (Enabled)
+   - **Formant Preserving:** 1 (Enabled to keep timbre stable)
+   - **LinkType:** Pitch is linked for macro control with the super knob.
+3. **Reverb**
+- Enabled Parameter Value: 0
+- **Parameters:**
+   - **Decay:** 0.48 (Medium-long tail)
+   - **Bandwidth:** 0.88 (Fairly open high end in the reverb)
+   - **Damping:** 0.32 (Moderate high-frequency rolloff in the tail)
+   - **Send Amount:** Linked (Starts at 0; rides up with the super knob for controlled ambience)
+   - **LinkType:** Send Amount is linked so reverb depth follows the super knob.
+
 
  ## NGC 5194 Preset
 
@@ -84,6 +124,7 @@ Recommended:
 🎸 - :bass:
 🥁 - :drums:
 
+🎼 - :Any:
 
 Effect Chain Configuration
 
@@ -226,7 +267,7 @@ Effect Chain Configuration
 **Use case:**  This could be used to create a dynamic, smooth transition effect when twisting level knob. 
 
 Recommended:
-🎼 - :All:
+🎼 - :Any:
 
 Effect Chain Configuration
 
@@ -265,7 +306,7 @@ Effect Chain Configuration
 **Use case:**  This could be used to create a captivating underwater or submerged environment, perfect for enhancing transitions or building suspense in your mixes.
 
 Recommended:
-🎼 - :All:
+🎼 - :Any:
 
 Effect Chain Configuration
 
@@ -298,10 +339,59 @@ Effect Chain Configuration
    - **Send Amount:** 0 (Minimum send amount, minimally incorporating the reverb effect)
    - **LinkType:** Decay is linked to the left channel, which could be used to control the reverb tail length dynamically. 
 
+
  ## Vocal Boost II Preset
 
-**Use case:** 
- 
+**Use case:**  Preset can be used to shapes vocals (or lead lines) for clarity and cut in a dense mix: parametric bands emphasize presence and tame low-mud, the graphic EQ fine-tunes the mid spectrum.
+
+Recommended:
+🎤 - :vox:
+
+🎹 - :synths:
+🎸 - :bass:
+🥁 - :drums:
+🎼 - :Any:
+
+Effect Chain Configuration
+
+**Name:** **`Vocal Boost II`**
+
+**Mix Mode:** DRY+WET
+
+**Super Parameter Value:** 0.818898 (Strong wet blend; presence EQ and shaping are clearly audible)
+
+**Effects**
+1. **Parametric EQ**
+- Enabled Parameter Value: 1
+- **Parameters:**
+   - **Gain (Band 1):** Linked (Presence boost follows the super knob)
+   - **Q (Band 1):** 1.5
+   - **Center (Band 1):** 2000 Hz (Presence / intelligibility region)
+   - **Gain (Band 2):** −3 (Cut at the second band center)
+   - **Q (Band 2):** 1.5
+   - **Center (Band 2):** 500 Hz (Low-mid shaping to reduce boxiness)
+   - **LinkType:** Gain (Band 1) is linked so the main presence boost tracks the super knob.
+2. **Graphic EQ**
+- Enabled Parameter Value: 1
+- **Parameters:**
+   - **Low:** −3 (Slight low-end reduction)
+   - **Mid0:** 0
+   - **Mid1:** 3 (Boost)
+   - **Mid2:** −2 (Cut)
+   - **Mid3:** 0
+   - **Mid4:** 0
+   - **High:** 0
+   - **LinkType:** None; static graphic shaping.
+3. **Three Band Biquad EQ**
+- Enabled Parameter Value: 1
+- **Parameters:**
+   - **Low:** 0
+   - **Mid:** 2 (Additional mid emphasis)
+   - **High:** 0
+   - **Kill Low / Mid / High:** 0 (No band kills)
+   - **LinkType:** None; broad three-band tone stack on top of the other EQs.
+
+
  ## Wah-wahish Preset
 
 **Use case:**  This could be used to create a classic wah-wah–like sweep with stereo motion and a light metallic swirl. Twist the super knob to sweep the filter band; autopan adds side-to-side movement and the flanger thickens the midrange.
@@ -311,7 +401,6 @@ Recommended:
 🎹 - :synths:
 🎸 - :bass:
 🥁 - :drums:
-🎼 - :All:
 
 
 Effect Chain Configuration
