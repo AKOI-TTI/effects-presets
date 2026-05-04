@@ -1,9 +1,10 @@
 # Mixxx Custom Effects Presets
-[Delay T3](#delay-t3-preset) 🚧
 
 [Ethereal Ascend Preset](#ethereal-ascend-preset)  🎤
 
 [Glow II Preset](#glow-ii-preset) 🆕  🎤🎹🥁
+
+[Linger T3 Preset](#linger-t3-preset) 🚧
 
 [NGC 5194 Preset](#ngc-5194-preset)  🎹🎸🥁   🎼
 
@@ -19,10 +20,6 @@
 
 [Wah-wahish Preset](#wah-wahish-preset) 🎤🎹🎸🥁
 
-
-## Delay T3 Preset
-
-**Use case:** 🚧
 
 ## Ethereal Ascend Preset
 
@@ -114,6 +111,9 @@ Effect Chain Configuration
    - **Send Amount:** Linked (Starts at 0; rides up with the super knob for controlled ambience)
    - **LinkType:** Send Amount is linked so reverb depth follows the super knob.
 
+## Linger T3 Preset
+
+**Use case:** 🚧
 
  ## NGC 5194 Preset
 
