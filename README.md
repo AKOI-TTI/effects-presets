@@ -1,7 +1,11 @@
 # Mixxx Custom Effects Presets
 [How To Add Effects](#how-to-add-effects)
 
+[Delay T3](#delay-t3-preset) 🚧
+
 [Ethereal Ascend Preset](#ethereal-ascend-preset)
+
+[Glow II](#glow-ii-preset) 🆕
 
 [NGC 5194 Preset](#ngc-5194-preset)
 
@@ -13,11 +17,16 @@
 
 [Submerged Preset](#submerged-preset)
 
+[Vocal Boost II Preset](#vocal-boost-ii-preset) 🆕
+
 [Wah-wahish Preset](#wah-wahish-preset)
 
 ## How To Add Effects
 For export/import, go to Options menu → Preferences → Effects
 
+ ## Delay T3 Preset
+
+**Use case:** 
 
 ## Ethereal Ascend Preset
 
@@ -62,6 +71,9 @@ Effect Chain Configuration
    - **HPF (High Pass Filter):** Linked (Low cutoff to remove some low frequencies for clarity) 
    - **LinkType:** LPF is linked to the left channel, and HPF is linked to the right channel, allowing for dynamic control over the cutoff frequencies.
 
+ ## Glow II Preset
+
+**Use case:** 
 
  ## NGC 5194 Preset
 
@@ -207,13 +219,6 @@ Effect Chain Configuration
    - **Quantize:** 1 (Quantized timing)
    - **Triplet:** 1 (Triplet timing)
    - **LinkType:** Send Amount is linked to ensure this echo layer also follows the super knob.
-4. **Moog Ladder 4 Filter**
-- Enabled Parameter Value: 0.692913
-- **Parameters:** 
-   - **LPF (Low Pass Filter):** Linked (Filter sweep shaping the high end)
-   - **Resonance:** 1.2 (Increased resonance for a more pronounced sweep)
-   - **HPF (High Pass Filter):** Linked (Filter sweep shaping the low end)
-   - **LinkType:** LPF is linked to the left channel, and HPF is linked to the right channel, allowing the super knob to shape both ends of the spectrum.
 
 
  ## Smooth Transition Preset
@@ -293,7 +298,10 @@ Effect Chain Configuration
    - **Send Amount:** 0 (Minimum send amount, minimally incorporating the reverb effect)
    - **LinkType:** Decay is linked to the left channel, which could be used to control the reverb tail length dynamically. 
 
+ ## Vocal Boost II Preset
 
+**Use case:** 
+ 
  ## Wah-wahish Preset
 
 **Use case:**  This could be used to create a classic wah-wah–like sweep with stereo motion and a light metallic swirl. Twist the super knob to sweep the filter band; autopan adds side-to-side movement and the flanger thickens the midrange.
