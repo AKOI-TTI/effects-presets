@@ -1,8 +1,7 @@
 # Mixxx Custom Effects Presets
-
 [Ethereal Ascend Preset](#ethereal-ascend-preset)  🎤
 
-[Glow II Preset](#glow-ii-preset) 🆕  🎤🎹🥁
+[Glow II Preset](#glow-ii-preset) 🆕 🎤🎹🥁
 
 [Linger T3 Preset](#linger-t3-preset) 🚧
 
@@ -20,10 +19,12 @@
 
 [Wah-wahish Preset](#wah-wahish-preset) 🎤🎹🎸🥁
 
+[We Come In Peace Preset](#we-come-in-peace-preset) 🆕 🎹🎸🥁 🎼
+
 
 ## Ethereal Ascend Preset
 
-**Use case:**  This could be used to create a dynamic ethereal and floating effect. Best used for vocals. Twist level knob back and forth to create the effect. 
+**Use case:**  This could be used to create a dynamic ethereal and floating effect. Best used for vocals. Twist super knob back and forth to create the effect. 
 
 Recommended:
 🎤 - :vox:
@@ -111,7 +112,7 @@ Effect Chain Configuration
    - **Send Amount:** Linked (Starts at 0; rides up with the super knob for controlled ambience)
    - **LinkType:** Send Amount is linked so reverb depth follows the super knob.
 
-## Linger T3 Preset
+## Linger T3 Preset 
 
 **Use case:** 🚧
 
@@ -264,7 +265,7 @@ Effect Chain Configuration
 
  ## Smooth Transition Preset
 
-**Use case:**  This could be used to create a dynamic, smooth transition effect when twisting level knob. 
+**Use case:**  This could be used to create a dynamic, smooth transition effect when rotating super knob. 
 
 Recommended:
 🎼 - :Any:
@@ -436,3 +437,53 @@ Effect Chain Configuration
    - **Mix:** 0.5 (Half wet; flanger sits under the dry signal)
    - **Triplet:** 0 (Straight timing, not triplet)
    - **LinkType:** None; flanger depth and tone stay stable while filter and pan carry the motion.
+
+
+## We Come In Peace Preset
+
+**Use case:** This could be used to create “alien transmission” fills, sci‑fi builds, or to chop a vocal/lead rhythmically while the super knob controls how deep the echo send and phaser depth go.
+
+Recommended:
+🎤 - :vox:
+🎹 - :synths:
+🎸 - :bass:
+🥁 - :drums:
+🎼 - :Any:
+
+Effect Chain Configuration
+
+**Name:** **`We Come In Peace`**
+
+**Mix Mode:** DRY/WET
+
+**Super Parameter Value:** 0.5 (Balanced wet/dry starting point)
+
+**Effects**
+1. **Glitch**
+- Enabled Parameter Value: 0.55
+- **Parameters:**
+   - **Delay Time:** 0.2
+   - **Quantize:** 1 (On; stutters lock to beat grid)
+   - **Triplet:** 0
+   - **LinkType:** None; glitch timing stays fixed.
+2. **Echo**
+- Enabled Parameter Value: 0.6
+- **Parameters:**
+   - **Delay Time:** 0.15
+   - **Feedback Amount:** 0.5
+   - **Pingpong Amount:** 0.75 (Wide stereo bounce)
+   - **Send Amount:** Linked (Echo intensity follows the super knob)
+   - **Quantize:** 1 (On; repeats lock to beat grid)
+   - **Triplet:** 0
+   - **LinkType:** Send Amount is linked so echo depth tracks the super knob.
+3. **Phaser**
+- Enabled Parameter Value: 0.5
+- **Parameters:**
+   - **LFO Period:** 2.5
+   - **Feedback:** 0.35
+   - **Range:** 1
+   - **Stages:** 7
+   - **Depth:** Linked (Phaser depth follows the super knob)
+   - **Triplet:** 0
+   - **Stereo:** 1 (Stereo phaser)
+   - **LinkType:** Depth is linked so phaser intensity tracks the super knob.
